@@ -1,0 +1,85 @@
+body {
+    background-image: url('images/pic1.jpg');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    display: flex;
+}
+.sidebar{
+    background-color : rgb(11, 11, 180);
+    height:755px;
+    width: 20%;
+}
+.sidebar li{
+    list-style: none;
+    text-align: center;
+    padding: 35px;
+}
+.sidebar img{
+    margin-top:  50px;
+    width: 30%;
+    height: 30%;
+}
+
+    .sidebar a{
+        color: white;
+        font-size: larger;
+    }
+    .sidebar a:hover{
+        text-decoration: underline;
+    }
+.box{
+    background-color: white;
+    border-width: 10px;
+    border-style: outset;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 450px;
+    height: 550px;
+    
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.719);
+}
+.input-text{
+    position: relative;
+    margin: 50px 0;
+    
+}
+
+.input-text input{
+    width: 70%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    padding-left: 120px;
+    margin-left: 75px;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    border-style: inset;
+}
+.input-text input:focus{
+    border-bottom: 6px solid blue;
+    border-radius: 10px;
+}
+.btn {
+    width: 50%;
+    margin-left: 115px ;
+    margin-bottom: 25px;
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px 30px 10px 30px;
+}
+.btn:hover{
+    box-shadow: 20px 20px 20px black;
+}
+.forget{
+    text-align: center;
+}
